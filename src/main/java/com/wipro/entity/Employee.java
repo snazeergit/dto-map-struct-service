@@ -12,11 +12,10 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "EMPLOYEE_DTO")
+@Table(name = "EMPLOYEE_MAP_STRUCT")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 public class Employee {
 
     @Id
